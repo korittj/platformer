@@ -3357,6 +3357,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6323719953710832613, guid: a4b4a6d32bcb19248a754d6602ffc7e4, type: 3}
   m_PrefabInstance: {fileID: 2088454102}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1097716278 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 531102353007141985, guid: a4b4a6d32bcb19248a754d6602ffc7e4, type: 3}
+  m_PrefabInstance: {fileID: 2088454102}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1097716277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1110356834 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2317492783311188507, guid: ed9b63eb6d4c6da4aa6072d86950c741, type: 3}
@@ -9220,6 +9231,10 @@ PrefabInstance:
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 314417313420068769, guid: 1fe0de371badef94897b5d2d51205a86, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1097716278}
+    - target: {fileID: 314417313420068769, guid: 1fe0de371badef94897b5d2d51205a86, type: 3}
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 531102353007141985, guid: a4b4a6d32bcb19248a754d6602ffc7e4, type: 3}
@@ -9228,8 +9243,17 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 314417313420068769, guid: 1fe0de371badef94897b5d2d51205a86, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: TriggerUnityEvent
+      objectReference: {fileID: 0}
+    - target: {fileID: 314417313420068769, guid: 1fe0de371badef94897b5d2d51205a86, type: 3}
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: set_name
+      objectReference: {fileID: 0}
+    - target: {fileID: 314417313420068769, guid: 1fe0de371badef94897b5d2d51205a86, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Unity.VisualScripting.EventMachine`2[[Unity.VisualScripting.FlowGraph,
+        Unity.VisualScripting.Flow
       objectReference: {fileID: 0}
     - target: {fileID: 314417313420068769, guid: 1fe0de371badef94897b5d2d51205a86, type: 3}
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -9604,6 +9628,10 @@ PrefabInstance:
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4834098943263186891, guid: 47281aacbac9bf34ea2dfbf080448cb9, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1097716278}
+    - target: {fileID: 4834098943263186891, guid: 47281aacbac9bf34ea2dfbf080448cb9, type: 3}
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 531102353007141985, guid: a4b4a6d32bcb19248a754d6602ffc7e4, type: 3}
@@ -9612,8 +9640,17 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4834098943263186891, guid: 47281aacbac9bf34ea2dfbf080448cb9, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: TriggerUnityEvent
+      objectReference: {fileID: 0}
+    - target: {fileID: 4834098943263186891, guid: 47281aacbac9bf34ea2dfbf080448cb9, type: 3}
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: set_name
+      objectReference: {fileID: 0}
+    - target: {fileID: 4834098943263186891, guid: 47281aacbac9bf34ea2dfbf080448cb9, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Unity.VisualScripting.EventMachine`2[[Unity.VisualScripting.FlowGraph,
+        Unity.VisualScripting.Flow
       objectReference: {fileID: 0}
     - target: {fileID: 4834098943263186891, guid: 47281aacbac9bf34ea2dfbf080448cb9, type: 3}
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -9753,20 +9790,34 @@ PrefabInstance:
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6149496418983235250, guid: 352c150eed0cd8c41bfbe379ff97fa84, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1097716278}
+    - target: {fileID: 6149496418983235250, guid: 352c150eed0cd8c41bfbe379ff97fa84, type: 3}
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 531102353007141985, guid: a4b4a6d32bcb19248a754d6602ffc7e4, type: 3}
+      objectReference: {fileID: 1097716278}
     - target: {fileID: 6149496418983235250, guid: 352c150eed0cd8c41bfbe379ff97fa84, type: 3}
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6149496418983235250, guid: 352c150eed0cd8c41bfbe379ff97fa84, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: TriggerUnityEvent
+      objectReference: {fileID: 0}
+    - target: {fileID: 6149496418983235250, guid: 352c150eed0cd8c41bfbe379ff97fa84, type: 3}
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: set_name
+      value: TriggerUnityEvent
+      objectReference: {fileID: 0}
+    - target: {fileID: 6149496418983235250, guid: 352c150eed0cd8c41bfbe379ff97fa84, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Unity.VisualScripting.EventMachine`2[[Unity.VisualScripting.FlowGraph,
+        Unity.VisualScripting.Flow
       objectReference: {fileID: 0}
     - target: {fileID: 6149496418983235250, guid: 352c150eed0cd8c41bfbe379ff97fa84, type: 3}
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
+      value: Unity.VisualScripting.EventMachine`2[[Unity.VisualScripting.FlowGraph,
+        Unity.VisualScripting.Flow
       objectReference: {fileID: 0}
     - target: {fileID: 6149496418983235250, guid: 352c150eed0cd8c41bfbe379ff97fa84, type: 3}
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -9802,20 +9853,34 @@ PrefabInstance:
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6918492155446469684, guid: 78869aaa6dfd25e48917ed7879e04df9, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1097716278}
+    - target: {fileID: 6918492155446469684, guid: 78869aaa6dfd25e48917ed7879e04df9, type: 3}
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 531102353007141985, guid: a4b4a6d32bcb19248a754d6602ffc7e4, type: 3}
+      objectReference: {fileID: 1097716278}
     - target: {fileID: 6918492155446469684, guid: 78869aaa6dfd25e48917ed7879e04df9, type: 3}
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6918492155446469684, guid: 78869aaa6dfd25e48917ed7879e04df9, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: TriggerUnityEvent
+      objectReference: {fileID: 0}
+    - target: {fileID: 6918492155446469684, guid: 78869aaa6dfd25e48917ed7879e04df9, type: 3}
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: set_name
+      value: TriggerUnityEvent
+      objectReference: {fileID: 0}
+    - target: {fileID: 6918492155446469684, guid: 78869aaa6dfd25e48917ed7879e04df9, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Unity.VisualScripting.EventMachine`2[[Unity.VisualScripting.FlowGraph,
+        Unity.VisualScripting.Flow
       objectReference: {fileID: 0}
     - target: {fileID: 6918492155446469684, guid: 78869aaa6dfd25e48917ed7879e04df9, type: 3}
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
+      value: Unity.VisualScripting.EventMachine`2[[Unity.VisualScripting.FlowGraph,
+        Unity.VisualScripting.Flow
       objectReference: {fileID: 0}
     - target: {fileID: 6918492155446469684, guid: 78869aaa6dfd25e48917ed7879e04df9, type: 3}
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
