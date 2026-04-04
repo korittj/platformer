@@ -17,8 +17,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - player
+  - enemysAgrArea
   - platforms
   - groundCheker
   - 
@@ -46,4 +46,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: enemy
+    uniqueID: 39433859
+    locked: 0
+  - name: player
+    uniqueID: 3655680761
     locked: 0
