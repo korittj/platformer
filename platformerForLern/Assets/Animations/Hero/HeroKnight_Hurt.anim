@@ -71,11 +71,4 @@ AnimationClip:
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
-  m_Events:
-  - time: 0.90909094
-    functionName: ChengIsVonovrble
-    data: 
-    objectReferenceParameter: {fileID: 11400000, guid: b5451351bc6b57a41b62d8887f3af642, type: 2}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
+  m_Events: []
