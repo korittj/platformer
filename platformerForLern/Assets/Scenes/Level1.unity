@@ -4106,6 +4106,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -3758029920148559899, guid: 22d0d31db27987c488b6aa4fe8a2a765, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3184572081612077195, guid: 22d0d31db27987c488b6aa4fe8a2a765, type: 3}
       propertyPath: m_Name
       value: Mushroom
@@ -4120,11 +4124,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5841205880334824142, guid: 22d0d31db27987c488b6aa4fe8a2a765, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -13.52
+      value: 39.41
       objectReference: {fileID: 0}
     - target: {fileID: 5841205880334824142, guid: 22d0d31db27987c488b6aa4fe8a2a765, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.45
+      value: 4.571
       objectReference: {fileID: 0}
     - target: {fileID: 5841205880334824142, guid: 22d0d31db27987c488b6aa4fe8a2a765, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4157,6 +4161,10 @@ PrefabInstance:
     - target: {fileID: 5841205880334824142, guid: 22d0d31db27987c488b6aa4fe8a2a765, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8234661890217434728, guid: 22d0d31db27987c488b6aa4fe8a2a765, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.216
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 22d0d31db27987c488b6aa4fe8a2a765, type: 3}
@@ -4196,6 +4204,27 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
+--- !u!50 &337047555
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 337047546}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!4 &347151932 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 982056747370159615, guid: d0bde9a42898be64ab7372c560194d8d, type: 3}

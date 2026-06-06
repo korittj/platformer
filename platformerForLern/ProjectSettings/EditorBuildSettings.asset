@@ -14,4 +14,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level1.unity
     guid: 277dea63b5888f5418213e55e3fb8332
+  - enabled: 1
+    path: Assets/Scenes/levle2.unity
+    guid: d9362d17bad65fe40ab2f240d0801d79
+  - enabled: 1
+    path: Assets/Scenes/levle3.unity
+    guid: 494d9aad0e0487f49a51ae33b14f0788
+  - enabled: 1
+    path: Assets/Scenes/levle4.unity
+    guid: 7c2fff7d3190e1a4786d7475c03f19b6
+  - enabled: 1
+    path: Assets/Scenes/levle5.unity
+    guid: cf6ff397c90b77c478b0aec01f2436ea
+  - enabled: 1
+    path: Assets/Scenes/levle6.unity
+    guid: 232ea4a9022d5f64da104a2f2d82281a
   m_configObjects: {}
