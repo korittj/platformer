@@ -10,6 +10,7 @@ TagManager:
   - hengPoint
   - CoinResurs
   - enemy
+  - key
   layers:
   - Default
   - TransparentFX
@@ -24,7 +25,7 @@ TagManager:
   - EnemyAttackArea
   - PlayerAttackArea
   - Enemy
-  - 
+  - interaktObjects
   - 
   - 
   - 
